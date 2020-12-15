@@ -22,5 +22,10 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage('monitor') {
+            steps {
+                echo 'Hello World'
+            }
+        }
     }
 }
